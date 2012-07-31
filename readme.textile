@@ -1,0 +1,29 @@
+---
+layout: default
+title: Readme
+current: about
+---
+
+h2. Readme
+
+bq. Young at heart 
+ Fresh from the start 
+ Step up into the next generation 
+
+The International Formula Master (IFM) was the successor of the F3000 International Masters series. It was held as a supporting series during the European WTCC races from 2007 till 2009. The series was a junior Formula series which was thought as a stepping stone into the GP2 just like the Formula 3 Euro Series. The cars were manufactured by Italian based company Tatuus and were comparable to smaller single seaters like the Formula 3 cars. However they looked more like a small version of a pre-2009 Formula 1 car.
+
+The premiere mod of CTDP for rFactor 2 brings you the complete 2009 season with all cars that competed over the full season.			
+
+h3. Physics by the book
+
+We got our hands on the original user manual for the car we have access to so many real life data as never before in our history. That helps us in creating highly realistic physics for IFM 2009 so you can feel like a real race driver.  
+
+h3. With rFactor2 into the future
+
+IFM 2009 takes full advantage of the new features that shipped with rFactor 2 to bring you the best driving experience possible. The mod laverages the new advantages rFactor2 offers and is showcase of what can be done in future mods.
+
+
+h3. License
+
+Templates sources and documentation are License under Creative-Commons-Attribution-Share-Alike.  
+ClayServer is licensed GPLv2.

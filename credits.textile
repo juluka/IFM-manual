@@ -1,0 +1,9 @@
+---
+layout: default
+title: Credits
+current: about
+---
+
+h2. Credits
+
+{% include credits.textile %}
