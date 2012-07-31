@@ -6,4 +6,9 @@ current: about
 
 h2. Credits
 
-{% include credits.textile %}
+
+
+h3. Website
+
+"Template of this website":https://github.com/broccolini/dinky created by "@broccolini":http://twitter.com/broccolini
+
