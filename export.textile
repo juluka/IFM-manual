@@ -1,0 +1,25 @@
+---
+layout: default
+title: Export
+current: about
+---
+
+h2. Export
+
+Bringing your texture ingame is the last challenge, 
+
+TODO
+
+h3. Build scripts
+
+TODO
+
+h3. Choosing the right compression
+
+As you export your texture, either through nVidia DDS-Tools for Photoshop, Dropps or any other means, you need to decide on the correct DXT compression setting. Rule of thumb is this. If your alpha channel is simply white, take DXT1, otherwise DXT5. 
+
+In our case for the car livieries, always choose DXT5.
+
+h3. Skins in rFactor2i
+
+TODO

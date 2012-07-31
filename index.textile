@@ -16,12 +16,15 @@ h3. Templates
 
 This are the templates accompanying the mod. Templates allow you to style your own cardesigns and load them in the mod. This is especially interesting for running individual liveries in leagues.
 
-
-
 h3. Clay viewer
 
 It's not new, that we release templates to our mods, However, one of the biggest challenges always was to provide you with good means of previewing. Nobody can paint on these complex textures without checking on the model, whether everything fits alright. To save you from constant switching between rFactor2 and your graphics software, we developed the Clay car viewer, an interactive 3D car visualizer running in your browser.   
 
+h3. Contact
+
+Read about our work on our "Website":http://www.ctdp.net and in our blog "Blog":http://devblog.ctdp.net  
+Follow and contact us on "Twitter":http://www.twitter.com/team_ctdp or "Facebook":http://on.fb.me/pLY4z3
+Support us on "Flattr":https://flattr.com/profile/CTDP 
 
 h3. License
 

@@ -1,0 +1,43 @@
+---
+layout: default
+title: Paint
+current: about
+---
+
+h2. Templates
+
+These are the templates of the 2009 IFM car available in the CTDP IFM 2009 mod for rFactor2. 
+They are meant for easily painting your own designs on the cars and contain seperate layers for details, shades, design and other stuff. For guidance they include the wireframe for exact positioning.
+
+This templates exist to get you a quick introduction into carpainting, still they don't cover all work required and are only meant as a starting point. So it's your task to use them efficiently for best results. They feature:
+
+* Templates for all helmet shapes and driver suit
+* Seperate Layers for Lighting, Shading, Alpha, Carbon and Details
+* Reflection map and Specular Map layers
+
+h3. Basics
+
+You need to paint two maps:
+
+The regular texture is the diffuse map, that contains all colors, logos, designs, the answer to life universe and everything.
+Reflection maps are a greyscale map to define the strength of reflection on the car's surface. If your exported cars have too much reflections, this is where you have to look.
+
+
+All IFM cars share the same Normal map and Specular map, so we disregard them here.
+
+h3. Getting started
+
+The templates are included as Photoshop-PSD files. They are organized in layers from top to bottom. 
+
+In reverse logical order this is:
+
+* @Background@: Base color of the car
+* @Paint design@: Group containing all design elements and carbon layers
+* @Logos@: Group containing all logos for left and right parts of the car
+* @Mandatory Logos@: Group containg all Logos, that are common to all IFM cars. You probably don't need this for fictional or league designs
+* @alpha@: Group doing some magic to reverse brightness riquired for the Reflection map, this is usually turned of
+* @noise@: Group doing more magic to add a bit of grain, structure and dirt to the car.
+* @Stuff@: Group with technical stuff. Please note, jointlines and bolts are deactivated and only serve as guides. Deactivate these layers on export.
+* @alpha-strength@: Black layer to adjust strength Reflectiions. We suggest not to change.
+* @alpha-black@: Paint on this layer, if you have parts that are not supposed to be reflective.
+* @wireframe@: Wireframe overlay
