@@ -1,0 +1,87 @@
+---
+layout: default
+title: Setup
+current: about
+---
+
+h2. Setup
+
+h3. Default setup
+
+The IFM car comes with the following predefined setup:
+
+|_.|_.|_.Front|_.Rear|
+|_/5.Geometry|Ride Height (mm)|20|30|
+|Camber (deg)|-3|-2|
+|Caster (deg)|6|6|
+|Toe (deg)|-0.2|0.1|
+|Rear suspension position||AE2|
+|_/4.Suspension|Springs (lbs/in)|800|1100|
+|Anti-roll|<<<>>>|16/13 mm|
+|Damper bump|2|6|
+|Damper rebound|4|3|
+|_.Aero|Wing position|14°|17°|
+|_/2.Differential|Ramp angles||50°/50°|
+|Preload||56 Nm|
+|_.Tire|Pressure (kpa)|150|150|
+
+
+
+h3. Suspension
+
+h4. Front
+
+The front suspension has a mono damper layout with a Belleville washer stack.
+
+h4. Springs and dampers
+
+There are the following spring options available:
+
+|600 lbs/in|700 lbs/in|800 lbs/in|900 lbs/in|1000 lbs/in|1100 lbs/in|1200 lbs/in|1300 lbs/in|
+
+_Note: The monodamper layout is modeled as a 3rd spring/damper in rFactor2. So to adjust the spring and damper settings you'll have to tweak the front 3rd spring/damper settings in the garage._
+
+h2. Gearbox
+
+The IFM car comes with a six speed gearbox. The reverse gear and the final drive ratios are fixed. The gear ratios for all other gears can be adjusted. There are 3 possible ratios for the first gear and 19 possible ratios for the 2nd to 6th gear available to chose from.
+
+h2. Differential
+
+h3. Locking percentage
+
+The differential is adjustable in preload and power/coast locking percentage. The locking percentage is adjustable through the following ramp angles:
+
+|_\6. Power/Coast|
+|50°/50°|45°/90°|23°/45°|35°/35°|60°/37°|50°/65°|
+
+_Note: As rFactor2 doesn't support specific power/coast combinations you could create also unrealistic power/coast combinations. To achieve the most realistic driving experience it's recommended to only use the possible combinations listed above._
+
+In the following table you can see what locking percentage each ramp angle equals:
+
+|_.Ramp angle|_.Locking %|
+|23°|61.76|
+|35°|44.13|
+|37°|42.21|
+|45°|36.00|
+|50°|32.94|
+|60°|27.97|
+|65°|25.86|
+|90°|17.00|
+
+h3. Preload
+
+Differential preload is the torque that is required before the differential is working. The following table shows you the available options to adjust preload and the respecitve torque for they stand for:
+
+|_.Belleville washer|_.Torque|
+|0.60 mm||
+|0.80 mm||
+|1.00 mm||
+|1.20 mm|56 Nm|
+|1.35 mm||
+|1.50 mm||
+|1.70 mm||
+|1.85 mm||
+|2.00 mm||
+|2.20 mm||
+|2.40 mm||
+|2.60 mm||
