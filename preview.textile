@@ -11,13 +11,15 @@ To do this without having to check the texture ingame, we provided you with a ne
 
 Clay consists of two components, we'd like to explain here in a few words.
 
+!images/pic_clayserver.jpg!
+
 h3. Clay in your browser
 
 Clay is a website. Clay is an interactive 3D viewer build in WebGL to run within your browser. This is supported by Chrome and Firefox and partially by Opera and Safari. The idea is, that you can open our IFM-model in this viewer, navigate, rotate, pan and zoom as you want to see all the details of the model and to preview your texture on the car.
 
 h3. ClayServer
 
-To open the Clay viewer, you need to start the server hosting it. In the templates package you can find the @clayserver.jar@. You need a Java Runtime Environment installed to execute the file and start up the server. As long as this application is running, the website is available in your local network at "http://localhost:20021":http://localhost:20021 
+To open the Clay viewer, you need to start the server hosting it. In the templates package you can find the @clayserver.jar@. You need a Java Runtime Environment installed to execute the file and start up the server. As long as this application is running, the website is available in your local network at "http://localhost:20021":http://localhost:20021. ClayServer can be run on any Java-supporting operating system. 
 
 h3. How to preview your textures
 
@@ -31,7 +33,7 @@ WebGL is experimental, but support is getting better. Many Android tablets and S
 
 h4. Go remote!
 
-Using tools like "localtunnel":http://www.localtunnel.com, you can also tunnel the webviewer outside, to access it from a remote computer. Imagine working collaborative on a liviery with a friend, who can see your changes in live 3D. 
+Using tools like "localtunnel":http://progrium.com/localtunnel/, you can also tunnel the webviewer outside, to access it from a remote computer. Imagine working collaborative on a liviery with a friend, who can see your changes in live 3D. 
 
 Please note, that the software is rather simple and not build for long term security, use it remotely under your own risk.
 

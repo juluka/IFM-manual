@@ -10,5 +10,6 @@ h2. Credits
 
 h3. Website
 
-"Template of this website":https://github.com/broccolini/dinky created by "@broccolini":http://twitter.com/broccolini
+"Original Dinky theme of this website":https://github.com/broccolini/dinky created by "@broccolini":http://twitter.com/broccolini  
+Modified by Dahie
 

@@ -22,9 +22,9 @@ It's not new, that we release templates to our mods, However, one of the biggest
 
 h3. Contact
 
-Read about our work on our "Website":http://www.ctdp.net and in our blog "Blog":http://devblog.ctdp.net  
-Follow and contact us on "Twitter":http://www.twitter.com/team_ctdp or "Facebook":http://on.fb.me/pLY4z3
-Support us on "Flattr":https://flattr.com/profile/CTDP 
+Read about our work on our "Website":http://www.ctdp.net and in our "Blog":http://devblog.ctdp.net.
+Follow and contact us on "Twitter":http://www.twitter.com/team_ctdp or "Facebook":http://on.fb.me/pLY4z3.
+Support us on "Flattr":https://flattr.com/profile/CTDP. 
 
 h3. License
 
