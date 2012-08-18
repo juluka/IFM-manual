@@ -7,19 +7,110 @@ current: about
 h2. Export
 
 Bringing your texture ingame is the last challenge, 
-
-TODO
+This covers how to save the textures from the PSD and where to put the texture, so rFactor2 can find it.
 
 h3. Build scripts
 
-TODO
+We won't cover this deeply, but want to give the advise, to have a look at Photoshop's scripting features. With a little effort 
 
 h3. Choosing the right compression
 
-As you export your texture, either through nVidia DDS-Tools for Photoshop, Dropps or any other means, you need to decide on the correct DXT compression setting. Rule of thumb is this. If your alpha channel is simply white, take DXT1, otherwise DXT5. 
+As you export your texture, either through nVidia DDS-Tools for Photoshop, "Dropps":http://www.ctdp.net/ddsutils.html or any other means, you need to decide on the correct DXT compression setting. Rule of thumb is this. If your alpha channel is simply white, take DXT1, otherwise DXT5. 
 
 In our case for the car livieries, always choose DXT5.
 
-h3. Skins in rFactor2i
+h3. Skins in rFactor2
 
-TODO
+rFactor2 feature/may feature/hopeufully soon features multiple ways to apply custom skins to cars, each method with it's own merrits.
+
+h4. User-based skins
+
+This is at the moment the only way to install additional skins.
+Installing skins works by selecting the vehicle of a mod, export the textures and associate the new texture with the vehicle by naming-convention.
+
+h5. 1. Lookup mod name and vehicle name
+
+Browse to @rFactor2 Data/Installed/Vehicles/@ and look for the mod you want to install the new skin to. Each mod has his own subfolder with a unique name. Create a subfolder by that name in @rFactor2 Data/UserData/@
+
+<pre>
+rFactor2 Data/Installed/Vehicles/IFM2009 -> rFactor2 Data/UserData/<UserName>/Settings/IFM2009
+</pre>
+
+Here you place all the new skins you want to install.
+
+One skin is associated with one vehicles @veh@ file from the teams.mas within @rFactor2 Data/Installed/Vehicles/IFM2009/<Version>/@. Unfortunately ISI seriously expects the common user to unpack the MAS file to somehow "find" the right veh-file for the team you want to add the new livery to. This is highly debatle, bad usuability and worth a lot of criticism. To make it simpler for the IFM-mod, here is the list of the IFM-Mod:
+
+|_.Team|_.Driver|_.Number|_.Identifier|
+|/3.JD Motorsport|Vladimir Arabadzhiev| #1|ifm2009_01|
+|Sergey Afanasyev|#2|ifm2009_02|
+|Josef Kral|#3|ifm2009_03|
+|/5.Cram Competition|Frankie Provenzano|#5|ifm2009_05|
+|Tiago Petiz|#4|ifm2009_04|
+|Harald Schleglmilch|#10|ifm2009_10|
+|Matteo Davenia|#12|ifm2009_12|
+|Allesandro Kouzkin|#47|ifm2009_47|
+|/3.Jenzer Motorsport|Fabio Leimer|#6|ifm2009_06|
+|Pal Varhaug|#7|ifm2009_07|
+|Nicolas Maulini|#26|ifm2009_26|
+|/2.Iris Project|Simon Trummer|#8|ifm2009_08|
+|Patrick Reiterer|#9|ifm2009_09|
+|/2.ADM Motorsport|Earl Bamber|#14|ifm2009_14|
+|Marcello Puglisi|#15|ifm2009_15|
+|Hitech Junior Team|Kasper Andersen|#24|ifm2009_24|
+|/2.ISR Racing|Alexander Rossi|#16|ifm2009_16|
+|Erik Janis|#20|ifm2009_20|
+|/2.Team JVA|Jonathan Kennard|#29|ifm2009_29|
+|Duncan Tappy|#30|ifm2009_30|
+|/3.AR Motorsport|Kevin Snoeks|#31|ifm2009_31|
+|Dennis Retera|#32|ifm2009_32|
+|Paul Meijer|#33|ifm2009_33|
+
+h5. 2. Name scheme of textures
+
+The namescheme for the skins is the following:
+
+<pre>
+ifm2009_01alt3.dds
+\________/\_/|\__/
+     |     | |  |
+     |     | |  \- Save as DDS texture
+     |     | |
+     |     | \- Use this number for using multiple skins for one vehicle
+     |     |
+     |     \- rFactor only displays texture with the keyword "alt"
+     |
+     \- Vehicles identifier
+</pre>
+
+For cars with multiple textures using different wildcard this scheme extends to this:
+
+<pre>
+ifm2009_01alt3Extra0.dds
+\________/\_/|\___/|\__/
+     |     | |  |  |  |
+     |     | |  |  |  \- Save as DDS texture
+     |     | |  |  |
+     |     | |  |  \- Index of the wildcard
+     |     | |  |
+     |     | |  \- Texture wildcard such as "Extra", "Helmet", "Wing"…
+     |     | |
+     |     | \- Use this number for using multiple skins for one vehicle
+     |     |
+     |     \- rFactor only displays texture with the keyword "alt"
+     |
+     \- Vehicles identifier
+</pre>
+
+Once the textures is saved in @rFactor2 Data/UserData/<UserName>/Settings/IFM2009@ you can go ingame, select the mod and the car and apply the new skin in the Tuning-Menu in the Variants-setting.
+ 
+
+h4. Global skins
+
+Similar to user-based skins, except skins installed here are available to all player profiles of the rFactor installation.
+This feature is not yet implemented in rFactor2.
+
+h4. Mod-Package-based skins
+
+The idea is to package additional skins for the existing cars within the rFactor2 Mod Packages.
+This feature is not yet implemented in rFactor2. "Follow the discussion here.":http://isiforums.net/f/showthread.php/7247-Skinning-feature-in-rFactor2
+
