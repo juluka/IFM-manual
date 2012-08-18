@@ -70,12 +70,13 @@ h5. 2. Name scheme of textures
 The namescheme for the skins is the following:
 
 <pre>
-ifm2009_01alt3.dds
-\________/\_/|\__/
-     |     | |  |
-     |     | |  \- Save as DDS texture
-     |     | |
-     |     | \- Use this number for using multiple skins for one vehicle
+ifm2009_01altIdentifier.dds
+\________/\_/\________/\__/
+     |     |      |      |
+     |     |      |      \- Save as DDS texture
+     |     |      |
+     |     |      \- Unique identifier to use multiple skins for one
+     |     |         vehicle. This can be just a number or a name.
      |     |
      |     \- rFactor only displays texture with the keyword "alt"
      |
@@ -85,20 +86,23 @@ ifm2009_01alt3.dds
 For cars with multiple textures using different wildcard this scheme extends to this:
 
 <pre>
-ifm2009_01alt3Extra0.dds
-\________/\_/|\___/|\__/
-     |     | |  |  |  |
-     |     | |  |  |  \- Save as DDS texture
-     |     | |  |  |
-     |     | |  |  \- Index of the wildcard
-     |     | |  |
-     |     | |  \- Texture wildcard such as "Extra", "Helmet", "Wing"…
-     |     | |
-     |     | \- Use this number for using multiple skins for one vehicle
-     |     |
-     |     \- rFactor only displays texture with the keyword "alt"
-     |
-     \- Vehicles identifier
+misc/ifm2009_01altIdentifierExtra0.dds
+\___/\________/\_/\________/\____/\__/
+  |       |     |      |       |    |
+  |       |     |      |       |    \- Save as DDS texture
+  |       |     |      |       |
+  |       |     |      |       \- Texture wildcard such as "Extra",
+  |       |     |      |          "Helmet", "Wing"…
+  |       |     |      |
+  |       |     |      \- Unique identifier to use multiple skins for
+  |       |     |         one vehicle. This can be just a number or a
+  |       |     |         name.
+  |       |     |
+  |       |     \- rFactor only displays texture with the keyword "alt"
+  |       |
+  |       \- Vehicles identifier
+  |
+  \- Wildcard textures need to be in the misc/-subfolder
 </pre>
 
 Once the textures is saved in @rFactor2 Data/UserData/<UserName>/Settings/IFM2009@ you can go ingame, select the mod and the car and apply the new skin in the Tuning-Menu in the Variants-setting.

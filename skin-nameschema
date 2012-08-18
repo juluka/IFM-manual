@@ -1,10 +1,10 @@
-ifm2009_01alt3.dds
----------+---!----
+ifm2009_01altIdentifier.dds
+---------+--+---------+----
 
 Vehicles identifier
 
 rFactor only displays texture with the keyword "alt"
 
-Use this number for using multiple skins for one vehicle
+Unique identifier to use multiple skins for one vehicle. This can be just a number or a name.
 
 Save as DDS texture

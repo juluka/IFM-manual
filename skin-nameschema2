@@ -1,14 +1,14 @@
-ifm2009_01alt3Extra0.dds
----------+---!-----!----
+misc/ifm2009_01altIdentifierExtra0.dds
+----+---------+--+---------+-----+----
+
+Wildcard textures need to be in the misc/-subfolder
 
 Vehicles identifier
 
 rFactor only displays texture with the keyword "alt"
 
-Use this number for using multiple skins for one vehicle
+Unique identifier to use multiple skins for one vehicle. This can be just a number or a name.
 
 Texture wildcard such as "Extra", "Helmet", "Wing"…
-
-Index of the wildcard
 
 Save as DDS texture
