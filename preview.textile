@@ -23,7 +23,7 @@ To open the Clay viewer, you need to start the server hosting it. In the templat
 
 h3. How to preview your textures
 
-Next to the clayserver.jar are two graphics called @carbody.jpg@ and @carbodyExtra0.jpg@. Those two are the textures for the livery of the displayed car. To Preview your own livery, export your texture from the source into each jpg. Afterwards start the server to preview, or just refresh if the preview is already running in your browser.
+Next to the clayserver.jar are two graphics called @carbody.jpg@, @carbodyExtra0.jpg@ and @carbodyHelmet.jpg@. Those two are the textures for the livery of the displayed car. To preview your own livery, export your texture from the source to jpg overwriting the existing files. Afterwards start the server to preview, or just refresh if the preview is already running in your browser.
 
 h3. Cool stuff
 
@@ -39,4 +39,4 @@ Please note, that the software is rather simple and not build for long term secu
 
 h4. Go naked!
 
-ClayServer is Open Source on "github":http://www.github.com/CTDP/ClayServer. In the future we will provide with documentation on how to build something similar. In exchange we'd like to "get feedback":http://www.github.com/CTDP/ClayServer/issues, Fork it, improve and share.
+ClayServer is Open Source on "github":http://www.github.com/CTDP/ClayServer. In the future we will provide with documentation on how to build something similar. In exchange we'd like to "get feedback":http://www.github.com/CTDP/ClayServer/issues, fork it, improve and share.

@@ -9,32 +9,21 @@ h2. Export
 Bringing your texture ingame is the last challenge, 
 This covers how to save the textures from the PSD and where to put the texture, so rFactor2 can find it.
 
-h3. Build scripts
-
-We won't cover this deeply, but want to give the advise to have a look at "Photoshop's scripting features":http://www.adobe.com/devnet/photoshop/scripting.html. With a little effort you can create an automatic process, that switches on/off layers and saves the texture variants you need automatically. Once setup, this reduces the potential for mistakes alot (especially if you have many different variants) and allows you to get a coffee, while the script is running.
-
-h3. Choosing the right compression
-
-As you export your texture, either through nVidia DDS-Tools for Photoshop, "Dropps":http://www.ctdp.net/ddsutils.html or any other means, you need to decide on the correct DXT compression setting. Rule of thumb is this. If your alpha channel is simply white, take DXT1, otherwise DXT5. 
-
-In our case for the car livieries, always choose DXT5.
-
 h3. Skins in rFactor2
 
 rFactor2 feature/may feature/hopeufully soon features multiple ways to apply custom skins to cars, each method with it's own merrits.
 
 h4. User-based skins
 
-This is at the moment the only way to install additional skins. The following only covers export specially for the IFM-2009 mod.  "For a more general tutorial look here.":export_common.html
-
+This is at the moment the only way to install additional skins.
 Installing skins works by selecting the vehicle of a mod, export the textures and associate the new texture with the vehicle by naming-convention.
 
-h5. 1. Lookup vehicle name
+h5. 1. Lookup mod name and vehicle name
 
 Browse to @rFactor2 Data/Installed/Vehicles/@ and look for the mod you want to install the new skin to. Each mod has his own subfolder with a unique name. Create a subfolder by that name in @rFactor2 Data/UserData/@
 
 <pre>
-rFactor2 Data/UserData/<UserName>/Settings/IFM2009
+rFactor2 Data/Installed/Vehicles/IFM2009 -> rFactor2 Data/UserData/<UserName>/Settings/IFM2009
 </pre>
 
 Here you place all the new skins you want to install.
@@ -107,3 +96,15 @@ misc/ifm2009_01altIdentifierExtra0.dds
 </pre>
 
 Once the textures is saved in @rFactor2 Data/UserData/<UserName>/Settings/IFM2009@ you can go ingame, select the mod and the car and apply the new skin in the Tuning-Menu in the Variants-setting.
+ 
+
+h4. Global skins
+
+Similar to user-based skins, except skins installed here are available to all player profiles of the rFactor installation.
+This feature is not yet implemented in rFactor2.
+
+h4. Mod-Package-based skins
+
+The idea is to package additional skins for the existing cars within the rFactor2 Mod Packages.
+This feature is not yet implemented in rFactor2. "Follow the discussion here.":http://isiforums.net/f/showthread.php/7247-Skinning-feature-in-rFactor2
+

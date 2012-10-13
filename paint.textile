@@ -7,11 +7,11 @@ current: about
 h2. Templates
 
 These are the templates of the 2009 IFM car available in the CTDP IFM 2009 mod for rFactor2. 
-They are meant for easily painting your own designs on the cars and contain seperate layers for details, shades, design and other stuff. For guidance they include the wireframe for exact positioning.
+They are meant for easily painting your own designs on the cars and contain seperate layers for details, shades, design and other stuff. For guidance they also include the wireframe for exact positioning.
 
-This templates exist to get you a quick introduction into carpainting, still they don't cover all work required and are only meant as a starting point. So it's your task to use them efficiently for best results. They feature:
+This templates exist to get you a quick introduction into carpainting, still they don't cover all work required and are only meant as a starting point. So it's your task to use them efficiently for the best results possible. They feature:
 
-* Templates for all helmet shapes and driver suit
+* Templates for the car body and helmet
 * Seperate Layers for Lighting, Shading, Alpha, Carbon and Details
 * Reflection map and Specular Map layers
 
@@ -21,7 +21,6 @@ You need to paint two maps:
 
 The regular texture is the diffuse map, that contains all colors, logos, designs, the answer to life universe and everything.
 Reflection maps are a greyscale map to define the strength of reflection on the car's surface. If your exported cars have too much reflections, this is where you have to look.
-
 
 All IFM cars share the same Normal map and Specular map, so we disregard them here.
 
@@ -88,7 +87,8 @@ h4. Alpha strength
 
 Last few words about the alpha. The alpha-folder below is fine, but the results are too bright. This layer, is just a black layer with transparency set between 40-60% and all it does is darken the specmap down. 40% for reflective cars and 60% for dull surfaces.
 
-Note, the chrome surface of McLaren utilizes the same methods, but is worth a hole unique article, so we don’t cover it here. Additionally to the alpha-strength layer, we often use an alpha-black layer, that covers all parts on the texture, that are not supposed to be reflective.
+Note, the chrome surface of McLaren utilizes the same methods, but is worth its "own complete article":http://devblog.ctdp.net/2009/03/mclaren-polished/, so we don’t cover it here.  
+Additionally to the alpha-strength layer, we often use an alpha-black layer, that covers all parts on the texture, that are not supposed to be reflective.
 
 h4. Wireframe
 
