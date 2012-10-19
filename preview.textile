@@ -33,10 +33,10 @@ WebGL is experimental, but support is getting better. Many Android tablets and S
 
 h4. Go remote!
 
-Using tools like "localtunnel":http://progrium.com/localtunnel/, you can also tunnel the webviewer outside, to access it from a remote computer. Imagine working collaborative on a liviery with a friend, who can see your changes in live 3D. 
+Using tools like "localtunnel":http://progrium.com/localtunnel/ or "pagekite":http://pagekite.net/, you can also tunnel the webviewer outside, to access it from a remote computer. Imagine working collaborative on a liviery with a friend, who can see your changes in live 3D. 
 
 Please note, that the software is rather simple and not build for long term security, use it remotely under your own risk.
 
 h4. Go naked!
 
-ClayServer is Open Source on "github":http://www.github.com/CTDP/ClayServer. In the future we will provide with documentation on how to build something similar. In exchange we'd like to "get feedback":http://www.github.com/CTDP/ClayServer/issues, fork it, improve and share.
+Clay is Open Source on "github":http://www.github.com/ as two project components: "ClayServer":https://www.github.com/ctdp/ClayServer and "ClayViewer":https://www.github.com/ctdp/ClayViewer. In the future we will provide with documentation on how to build something similar. In exchange we'd like to "get feedback":http://www.github.com/CTDP/ClayServer/issues, fork it, improve and share.

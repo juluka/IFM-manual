@@ -11,7 +11,7 @@ This covers how to save the textures from the PSD and where to put the texture, 
 
 h3. Skins in rFactor2
 
-rFactor2 feature/may feature/hopeufully soon features multiple ways to apply custom skins to cars, each method with it's own merrits.
+rFactor2 feature/may feature/hopefully soon features multiple ways to apply custom skins to cars, each method with it's own merrits.
 
 h4. User-based skins
 
@@ -28,7 +28,7 @@ rFactor2 Data/Installed/Vehicles/IFM2009 -> rFactor2 Data/UserData/<UserName>/Se
 
 Here you place all the new skins you want to install.
 
-One skin is associated with one vehicles @veh@ file from the teams.mas within @rFactor2 Data/Installed/Vehicles/IFM2009/<Version>/@. Unfortunately ISI seriously expects the common user to unpack the MAS file to somehow "find" the right veh-file for the team you want to add the new livery to. This is highly debatle, bad usuability and worth a lot of criticism. To make it simpler for the IFM-mod, here is the list of the IFM-Mod:
+One skin is associated with one vehicles @veh@ file from the @teams.mas@ within @rFactor2 Data/Installed/Vehicles/IFM2009/<Version>/@. Unfortunately ISI seriously expects the common user to unpack the MAS file to somehow "find" the right veh-file for the team you want to add the new livery to. This is highly debatle, bad usuability and worth a lot of criticism. To make it simpler for the IFM-mod, here is the list of the IFM-mod:
 
 |_.Team|_.Driver|_.Number|_.Identifier|
 |/3.JD Motorsport|Vladimir Arabadzhiev| #1|ifm2009_01|
@@ -95,7 +95,7 @@ misc/ifm2009_01altIdentifierExtra0.dds
   \- Wildcard textures need to be in the misc/-subfolder
 </pre>
 
-Once the textures is saved in @rFactor2 Data/UserData/<UserName>/Settings/IFM2009@ you can go ingame, select the mod and the car and apply the new skin in the Tuning-Menu in the Variants-setting.
+Once the textures is saved in @rFactor2 Data/UserData/<UserName>/Settings/IFM2009@ you can go ingame, select the mod and the car and apply the new skin in the Tuning-menu in the Variants-setting.
  
 
 h4. Global skins
