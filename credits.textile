@@ -6,7 +6,29 @@ current: about
 
 h2. Credits
 
+h3. 3D artist
 
+Andreas Neidhardt, Stefan Triefellner
+
+h3. 2D artist
+
+Ben Dinstuehler, Dennis Schmidt, Daniel Senff, James Bendy, Neil Ascough, Patrik Bartnik, Pier Murru
+
+h3. Physics
+
+Stefan Triefellner
+
+h3. Sounds
+
+-
+
+h3. Misc
+
+bitbox (damage-texture), Eugenio Farina (helmet model)
+
+h3. Special thanks:
+
+Joe Campana and ISI, Michael Burgess for the driver animation, Tatuus for technical documentation on the cars
 
 h3. Website
 
