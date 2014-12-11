@@ -6,32 +6,37 @@ current: about
 
 h2. Credits
 
-h3. 3D artist
+h3. 3D Artist, Physics
 
-Andreas Neidhardt, Stefan Triefellner
+Andreas 'Neidryder' Neidhardt, Stefan 'erale' Triefellner
 
-h3. 2D artist
+h3. 2D Artist, Assetto Corsa implementation
 
-Ben Dinstuehler, Dennis Schmidt, Daniel Senff, James Bendy, Neil Ascough, Patrik Bartnik, Pier Murru
+James 'Juluka' Bendy
 
-h3. Physics
+h3. 2D Artist, Website, Templates, Documentation
 
-Stefan Triefellner
+Daniel 'Dahie' Senff
+
+h3. 2D Artist
+
+Ben 'AtomAmeise' Dinstuehler, Dennis 'mediocre89' Schmidt, Neil 'nea' Ascough, Patrik Bartnik, Pier 'tuttle' Murru
 
 h3. Sounds
 
--
+Alize 'NeverKrash' Goz
+
+h3. Testing
+
+Andrea 'Uff' Candini
 
 h3. Misc
 
-bitbox (damage-texture), Eugenio Farina (helmet model)
+Eugenio Farina (Helmet model), TTM (Helmet template), bitbox (Damage texture), Patrik Marek (Damage assistance)
 
 h3. Special thanks:
 
-Joe Campana and ISI, Michael Burgess for the driver animation, Tatuus for technical documentation on the cars
-
-h3. Website
-
-"Original Dinky theme of this website":https://github.com/broccolini/dinky created by "@broccolini":http://twitter.com/broccolini  
-Modified by Dahie
+Tatuus for technical documentation on the cars,
+"Original Dinky theme of this website":https://github.com/broccolini/dinky created by "@broccolini":http://twitter.com/broccolini
+Kunos (Driver model, Helmet model & the game)
 
