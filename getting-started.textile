@@ -8,4 +8,11 @@ h2. Getting started
 
 h3. Installation
 
+To install, simply unzip the file "ifm_2009" and place it in the following location where your Assetto Corsa game file path is located:
+
+
+  (Your Drive Letter):\Program Files (x86)\Steam\SteamApps\common\assettocorsa\content\cars
+
+*Important Note*  As the car was developed and built by Tatuus,  the car will be located In the car selection menu under the Tatuus Icon
+
 h3. First rollout

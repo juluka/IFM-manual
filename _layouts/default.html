@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1">
 
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{{site.title}} {% if page.title %} - {{ page.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <script src="javascripts/scale.fix.js"></script>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -20,22 +19,24 @@
   <body>
     <div class="wrapper">
       <header><div class="inside">
-        <h1 class="header"><a href="index.html">International Formula Master 2009</a></h1>
+        <h1 class="header"><a href="http://www.ctdp.net">International Formula Master 2009</a></h1>
         <p class="header">Documentation and Manual</p>
 
         <ul class="nav">
-          <li class="getting_started"><a class="buttons page" href="getting-started.html">Getting started</a></li>
-          <li class="setup"><a class="buttons page" href="setup.html">Setup guide</a></li>
-          <li class="templates"><a class="buttons page" href="templates.html">Templates</a></li>
-          <li class="credits"><a class="buttons page" href="credits.html">Credits</a></li>
-       </ul>
+         {% for page in site.pages %}
+            {% if page.title %}
+            <li><a class="page-link buttons page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+
        <ul class="languages">
           <li class="language"><a href="index.html">English</a></li>
           <li class="language"><a href="de/index.html">Deutsch</a></li>
           <li class="language"><a href="fr/index.html">Français</a></li>
       </ul>
 
-        <p class="header"><a class="header name" href="https://ctdp.net/"><img src="images/ctdp_logo.png" /></a>
+        <p class="header"><a class="header name" href="https://ctdp.net/#about"><img src="images/ctdp_logo.png" /></a>
 
         </div>
       </header>

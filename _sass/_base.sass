@@ -1,9 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,700,400italic)
 
-/* Colors
-
-$red: #cc0000
-
 
 /* MeyerWeb Reset
 
@@ -14,11 +10,30 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font: inherit
   vertical-align: baseline
 
+
+/**
+ * Images
+ */
+img
+  max-width: 100%
+  vertical-align: middle
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm
+  margin-bottom: $spacing-unit / 2
+
+
 /* Base text styles
 
 body
   padding: 10px 50px 0 0
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: $base-font-family
   font-size: 14px
   color: #232323
   background-color: #FBFAF7
@@ -57,8 +72,7 @@ h4, h5, h6
   font-weight: 700
 
 a
-  color: $red
-  font-weight: 200
+  color: $brand-color
   text-decoration: none
   &:hover
     text-decoration: underline
@@ -159,7 +173,7 @@ td
 /* Header
 
 header
-  position: fixed  
+  position: fixed
   width: 245px
   float: left
   top: 0px
@@ -186,27 +200,27 @@ p.header
 
 h1.header
   font-family: Arvo, sans-serif
-  font-size: 30px
-  font-weight: 300
-  line-height: 1.3em
+  font-size: 25px
+  font-weight: bold
+  line-height: 1.1em
   border-bottom: none
   margin-top: 0
   color: #fff
   a
-    color: $red
+    color: $brand-color
 a
   &.header, &.name
     color: #fff
 
 header a
   color: #fff
-  
+
 a
   &.header
     text-decoration: underline
   &.name
     white-space: nowrap
-    img 
+    img
       border: none
       margin: 0
 
@@ -222,7 +236,7 @@ header
         display: inline
 
       a
-        color: $red
+        color: $brand-color
     &.nav li
       list-style-type: none
       width: 132px
@@ -231,12 +245,12 @@ header
       line-height: 1em
       padding: 6px 6px 6px 7px
       background: #AF0011
-      background: -moz-linear-gradient(top, $red 0%, #820011 100%)
+      background: -moz-linear-gradient(top, $brand-color 0%, #820011 100%)
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f8f8f8), color-stop(100%, #dddddd))
-      background: -webkit-linear-gradient(top, $red 0%, #820011 100%)
-      background: -o-linear-gradient(top, $red 0%, #820011 100%)
-      background: -ms-linear-gradient(top, $red 0%, #820011 100%)
-      background: linear-gradient(top, $red 0%, #820011 100%)
+      background: -webkit-linear-gradient(top, $brand-color 0%, #820011 100%)
+      background: -o-linear-gradient(top, $brand-color 0%, #820011 100%)
+      background: -ms-linear-gradient(top, $brand-color 0%, #820011 100%)
+      background: linear-gradient(top, $brand-color 0%, #820011 100%)
       border-radius: 4px
       border: 1px solid #0D0D0D
       -webkit-box-shadow: inset 0px 1px 1px 0 rgba(233, 2, 38, 1)

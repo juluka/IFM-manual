@@ -32,7 +32,7 @@ Andrea 'Uff' Candini
 
 h3. Misc
 
-Eugenio Farina (Helmet model), TTM (Helmet template), bitbox (Damage texture), Patrik Marek (Damage assistance)
+TTM (Helmet template), bitbox (Damage texture), Patrik Marek (Damage assistance)
 
 h3. Special thanks:
 

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Setup
+title: Setup guide
 current: about
 ---
 
-h2. Setup
+h2. Setup guide
 
 h3. Default setup
 

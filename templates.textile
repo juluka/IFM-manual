@@ -6,14 +6,13 @@ current: about
 
 h2. Templates
 
-These are the templates of the 2009 IFM car available in the CTDP IFM 2009 mod for rFactor2.
-They are meant for easily painting your own designs on the cars and contain seperate layers for details, shades, design and other stuff. For guidance they also include the wireframe for exact positioning.
+The templates of the 2009 IFM car are meant for easily painting your own designs on the cars and helmets. They contain seperate layers for details, shades, design and other stuff. For guidance they also include the wireframe for exact positioning.
 
-This templates exist to get you a quick introduction into carpainting, still they don't cover all work required and are only meant as a starting point. So it's your task to use them efficiently for the best results possible. They feature:
+This guide is to give you a quick introduction into carpainting, still it does not cover all work required and are only meant as a starting point. So it is your task to use them efficiently for the best results possible. They feature:
 
 * Templates for the car body and helmet
 * Seperate Layers for Lighting, Shading, Alpha, Carbon and Details
-* Reflection map and Specular Map layers
+* Reflection map and Specular map layers
 
 h3. Basics
 
@@ -44,6 +43,9 @@ In reverse logical order this is:
 
 For more details continue reading.
 
+TODO add picture
+
+
 h3. Layers
 
 h4. Design
@@ -61,7 +63,7 @@ This is mostly an recommendation. For the IFM we included the common mandatory l
 
 h4. Alpha
 
-The alpha-folder, I call it alpha, as this is the alpha map of the later saved textures. This folder is a set of layers which serve the purpose of creating alpha maps. To know what this alpha-folder does, I have to explain how the spec maps and reflection maps work. For more details read the write-up about the texturemaps of rFactor.
+The alpha-folder, I call it alpha, as this is the alpha map of the later saved textures. This folder is a set of layers which serve the purpose of creating alpha maps. To know what this alpha-folder does, I have to explain how the spec maps and reflection maps work.
 
 The alpha-channel and the spec-map define how the surface reacts to light and reflection. The reflection map defines how reflective an area on the car can be, the specular map defines, how much light is reflected.
 
@@ -81,13 +83,13 @@ For IFM, we removed the jointlines and bolts away from the texture. Joint lines 
 
 h4. Shadows
 
-F1-2005 was our last mod, that used shadows, which were manually painted by the artist. Since then we developed some automated ways to render shadows on a seperate texture and compose it into the car texture. The results were amazing and we kept using this method, I think you’ll agree why.
+F1-2005 was our last addon, that used shadows, which were manually painted by the artist. Since then we developed some automated ways to render shadows on a seperate texture and compose it into the car texture. The results were amazing and we kept using this method, I think you’ll agree why.
 
 h4. Alpha strength
 
 Last few words about the alpha. The alpha-folder below is fine, but the results are too bright. This layer, is just a black layer with transparency set between 40-60% and all it does is darken the specmap down. 40% for reflective cars and 60% for dull surfaces.
 
-Note, the chrome surface of McLaren utilizes the same methods, but is worth its "own complete article":http://devblog.ctdp.net/2009/03/mclaren-polished/, so we don’t cover it here.
+Note, the chrome surface of a McLaren utilizes the same methods, but is worth its "own complete article":http://devblog.ctdp.net/2009/03/mclaren-polished/, so we don’t cover it here.
 Additionally to the alpha-strength layer, we often use an alpha-black layer, that covers all parts on the texture, that are not supposed to be reflective.
 
 h4. Wireframe
