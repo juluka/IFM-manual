@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Getting started
+title: Quickstart
+next_section: setup
+prev_section: home
 current: about
 ---
 
-h2. Getting started
+h2. Quickstart
 
 h3. Installation
 
@@ -13,6 +15,6 @@ To install, simply unzip the file "ifm_2009" and place it in the following locat
 
   (Your Drive Letter):\Program Files (x86)\Steam\SteamApps\common\assettocorsa\content\cars
 
-*Important Note*  As the car was developed and built by Tatuus,  the car will be located In the car selection menu under the Tatuus Icon
+*Important Note:*  As the car was developed and built by Tatuus,  the car will be located In the car selection menu under the Tatuus Icon./
 
 h3. First rollout

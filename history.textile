@@ -1,0 +1,11 @@
+---
+layout: default
+title: History
+prev_section: credits
+---
+
+h2. History
+
+h3. 1.0 / 2014-12-xx TODO
+
+* Birthday!

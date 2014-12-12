@@ -20,4 +20,13 @@ exclude:
   - config.rb
   - sass
   - drafts
-  - trunk
+
+# Deployment
+
+ftp_host: 'readme.ctdp.com'
+ftp_dir: '/web/site/root'
+ftp_passive: false
+
+# optional
+ftp_port: 21                  # default 21
+ftp_username: 'your_user'     # default read from stdin

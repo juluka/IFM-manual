@@ -1,0 +1,15 @@
+- title: Getting Started
+  docs:
+  - home
+  - quickstart
+  - setup
+
+- title: Customization
+  docs:
+  - templates
+  - export
+
+- title: Meta
+  docs:
+  - contributing
+  - history

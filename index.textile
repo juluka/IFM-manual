@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Manual
+next_section: getting-started
 current: about
 ---
 
