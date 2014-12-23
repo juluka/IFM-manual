@@ -2,6 +2,7 @@
 layout: default
 title: Credits
 current: about
+weight: 9
 ---
 
 h2. Credits
