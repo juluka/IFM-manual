@@ -8,9 +8,9 @@ h2. Credits
 
 h3. 3D Artist, Physics
 
-Andreas 'Neidryder' Neidhardt, Stefan 'erale' Triefellner
+Andreas 'Neidryder' Neidhardt, Stefan 'erale' Triefellner, Dustin 'bobskype' Kutchara
 
-h3. 2D Artist, Assetto Corsa implementation
+h3. 2D Artist, Animation, Assetto Corsa implementation
 
 James 'Juluka' Bendy
 
@@ -22,7 +22,7 @@ h3. 2D Artist
 
 Ben 'AtomAmeise' Dinstuehler, Dennis 'mediocre89' Schmidt, Neil 'nea' Ascough, Patrik Bartnik, Pier 'tuttle' Murru
 
-h3. Sounds
+h3. Sounds, FMOD
 
 Alize 'NeverKrash' Goz
 
