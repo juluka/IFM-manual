@@ -86,7 +86,7 @@ This includes the ambient occlusion shadow bake of the model.
 
 h4. Alpha strength
 
-Last few words about the alpha. The alpha-folder below is optional, but the results are too bright or dark. This layer can be adjusted to suit.
+Last few words about the alpha. The alpha-folder below is optional, but if the results are too bright or dark. This layer can be adjusted to suit.
 
 h4. Wireframe
 
