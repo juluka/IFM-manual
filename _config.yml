@@ -1,9 +1,9 @@
 # Site settings
 title: International Formula Master 2009 by CTDP
 email: info@ctdpworld.org
-description: > The premier addon by CTDP for Assetto Corsa brings you the 2009 season with the cars and drivers competing this season.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.ctdp.net" # the base hostname & protocol for your site
+description: The premier addon by CTDP for Assetto Corsa brings you the 2009 season with the cars and drivers competing this season.
+baseurl: "/ifm2009/" # the subpath of your site, e.g. /blog/
+url: "http://readme.ctdp.net" # the base hostname & protocol for your site
 twitter_username: team_ctdp
 github_username:  CTDP
 
@@ -23,10 +23,10 @@ exclude:
 
 # Deployment
 
-ftp_host: 'readme.ctdp.com'
-ftp_dir: '/web/site/root'
+ftp_host: 'www.ctdpworld.org'
+ftp_dir: '/homepages/u28471/readme/ifm2009'
 ftp_passive: false
 
 # optional
 ftp_port: 21                  # default 21
-ftp_username: 'your_user'     # default read from stdin
+ftp_username: 'u28471'     # default read from stdin

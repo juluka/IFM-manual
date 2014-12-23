@@ -20,12 +20,13 @@
     <div class="wrapper">
       <header><div class="inside">
         <h1 class="header"><a href="http://www.ctdp.net">International Formula Master 2009</a></h1>
-        <p class="header">Documentation and Manual</p>
+        <p class="header">Manual and Documentation</p>
 
+        {% assign pages = site.pages | sort:"weight"  %}
         <ul class="nav">
-         {% for page in site.pages %}
+          {% for page in pages %}
             {% if page.title %}
-            <li><a class="page-link buttons page" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+            <li><a class="page-link buttons page-right" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
         </ul>

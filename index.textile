@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Manual
+title: Introduction
 next_section: getting-started
 current: about
+weight: 1
 ---
 
-h2. Manual
+h2. Introduction
 
 bq. Young at heart
  Fresh from the start

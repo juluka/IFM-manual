@@ -4,6 +4,7 @@ title: Setup guide
 next_section: templates
 prev_section: getting-started
 current: about
+weight: 3
 ---
 
 h2. Setup guide

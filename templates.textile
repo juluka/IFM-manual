@@ -3,6 +3,7 @@ layout: default
 title: Templates
 prev_section: templates
 current: about
+weight: 5
 ---
 
 h2. Templates

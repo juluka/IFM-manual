@@ -2,6 +2,7 @@
 layout: default
 title: History
 prev_section: credits
+weight: 10
 ---
 
 h2. History
