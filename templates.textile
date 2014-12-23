@@ -14,6 +14,7 @@ This guide is to give you a quick introduction into carpainting, still it does n
 * Templates for the car body and helmet
 * Seperate Layers for Lighting, Shading, Alpha, Carbon and Details
 * Reflection map and Specular map layers
+* Damage and dirt layers 
 
 h3. Basics
 
@@ -43,9 +44,6 @@ In reverse logical order this is:
 * @Wireframe@: Wireframe overlay
 
 For more details continue reading.
-
-TODO add picture
-
 
 h3. Layers
 
@@ -84,14 +82,11 @@ For IFM, we removed the jointlines and bolts away from the texture. Joint lines 
 
 h4. Shadows
 
-F1-2005 was our last addon, that used shadows, which were manually painted by the artist. Since then we developed some automated ways to render shadows on a seperate texture and compose it into the car texture. The results were amazing and we kept using this method, I think you’ll agree why.
+This includes the ambient occlusion shadow bake of the model.
 
 h4. Alpha strength
 
-Last few words about the alpha. The alpha-folder below is fine, but the results are too bright. This layer, is just a black layer with transparency set between 40-60% and all it does is darken the specmap down. 40% for reflective cars and 60% for dull surfaces.
-
-Note, the chrome surface of a McLaren utilizes the same methods, but is worth its "own complete article":http://devblog.ctdp.net/2009/03/mclaren-polished/, so we don’t cover it here.
-Additionally to the alpha-strength layer, we often use an alpha-black layer, that covers all parts on the texture, that are not supposed to be reflective.
+Last few words about the alpha. The alpha-folder below is optional, but the results are too bright or dark. This layer can be adjusted to suit.
 
 h4. Wireframe
 
